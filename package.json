@@ -1,0 +1,21 @@
+{
+  "name": "005-air-pressure",
+  "version": "0.0.1",
+  "description": "Air Pressure Calc",
+  "main": "index.js",
+  "scripts": {
+    "start": "static -H \"{\\\"Cache-Control\\\": \\\"no-cache, must-revalidate\\\"}\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dean Lovett",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "chai": "^4.2.0",
+    "express": "^4.17.1",
+    "mocha": "^6.2.2",
+    "nightmare": "^3.0.2",
+    "node-static": "^0.7.11",
+    "parcel": "^1.12.4"
+  }
+}
